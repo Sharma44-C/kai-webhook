@@ -13,7 +13,7 @@ app.listen(PORT, () => {
 });
 
 // Your Gemini API key and endpoint
-const API_KEY = "AIzaSyBIwMPbZLff8ZfcYGJedr_bFl0i9MzMXKk";
+const API_KEY = "AIzaSyBHUxcsjVtXaD5Zh3Z9ZZxOvTlB5KBO6BM";
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
 
 // Facebook credentials
