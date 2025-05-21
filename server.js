@@ -8,6 +8,9 @@ app.use(cors());
 app.use(bodyParser.json());
 
 const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.log(`Kai API running on port ${PORT}`);
+});
 
 // Your Gemini API key and endpoint
 const API_KEY = "AIzaSyBIwMPbZLff8ZfcYGJedr_bFl0i9MzMXKk";
